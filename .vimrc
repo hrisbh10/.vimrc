@@ -7,11 +7,11 @@ set backspace=indent,eol,start
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 syntax on
 
-vnoremap <Leader>" ciw""<Esc>P 
-vnoremap <Leader>' ciw''<Esc>P 
-vnoremap <Leader>( ciw()<Esc>P 
-vnoremap <Leader>[ ciw[]<Esc>P 
-vnoremap <Leader>{ ciw{}<Esc>P 
+vnoremap <Leader>" c""<Esc>P 
+vnoremap <Leader>' c''<Esc>P 
+vnoremap <Leader>( c()<Esc>P 
+vnoremap <Leader>[ c[]<Esc>P 
+vnoremap <Leader>{ c{}<Esc>P 
 
 inoremap :<CR> :<CR><Tab>
 
